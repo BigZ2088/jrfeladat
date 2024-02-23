@@ -34,11 +34,13 @@ nav ul
 {
 	margin: 0px;
 	padding: 5px 0px 5px 30px;
+	list-style: none;
 }
 
 nav li
 {
 	margin-right: 40px;
+	float: left;
 }
 
 nav li a
@@ -134,4 +136,27 @@ section.contpage
 {
 	text-align: center;
 	font-size: 20px;
+}
+
+header{
+	height: 200px;
+}
+
+article{
+	text-align: justify;
+}
+
+aside{
+	width: 230px;
+	padding-left: 20px;
+	float: right;
+}
+
+aside a{
+	color: #de6581;
+	text-decoration: none;
+}
+
+h1, h2, h3{
+	font-weight: normal;
 }
